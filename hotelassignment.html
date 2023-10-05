@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div class="bg-contanier">
+        <div class="login-btn-container">
+            <button class="login">Login</button>
+        </div>
+        <div class="home-card-container d-flex flex-column justify-content-center">
+            <div class="home-card d-md-flex flex-md-column flex-lg-row">
+                <div class="home-card-image order-md-1 order-lg-2">
+                    <img src="https://s3-alpha-sig.figma.com/img/e4a8/f302/6a912ef0315ac2a3cb0379dc9782f7eb?Expires=1697414400&Signature=kFdIooRhxbzTl~~ZjOYGLv4G6QaOTGCHWTk4mqXYknMaHOGtoD6RvmxGEKomUBndNFlur1b4L9wFlgm6vtfyIyHq9FgsMxbAgZ6RKK3c0M8KwLCcnhvC~coly0uVuuqTI2kTB~FuhPnvt8A537U~-o0Mz2~rc3RZFZjiJBKhz4YphM6LtA~y2hDbcdEqsr40gkgKWs9BFJYOz-4hJ6rRoD2veBEB7RbZvyDR1Ru60J68iVlc29te-pQxI0Lj2TS6syiFltcA4Zd1W-OeTQpKx3zFfNCRA4JeA4DlsNv5irS9sCsG16Sdb8mPeyP4mRcBaMrS4k8JfRCbi9JWTpLTAA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                </div>
+                <div class="home-card-details order-md-2 order-lg-1">
+                    <h1>Find your perfect place to stay</h1>
+                    <p>Our exquisite rooms offers a perfect blend of contemporary elegance and warm hospitality</p>
+                    <div>
+                        <button><img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696472520/arrow-right_1_cbkivl.png"></button>
+                        <p>Watch Video</p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-filter-container d-lg-flex align-items-center justify-content-between">
+                <div class="d-md-flex flex-lg-row flex-sm-column">
+                    <div class="home-filters d-flex align-items-center justify-content-center ">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696472469/pin_1_qlchfy.png">
+                        <div class="d-flex flex-column align-items-center ">
+                            <h1>
+                                Location
+                            </h1>
+                            <p>Abuja</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="home-filters d-flex align-items-center justify-content-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696472469/calendar_1_or6ysb.png">
+                        <div class="d-flex flex-column align-items-center ">
+                            <h1>
+                                Check in
+                            </h1>
+                            <p>10 Jun 2023</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="home-filters d-flex align-items-center justify-content-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696472469/calendar_1_or6ysb.png">
+                        <div class="d-flex flex-column align-items-center ">
+                            <h1>
+                                Check out
+                            </h1>
+                            <p>15 Jun 2023</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="home-filters d-flex align-items-center justify-content-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696472468/person_1_vpus6k.png">
+                        <div class="d-flex flex-column align-items-center ">
+                            <h1>
+                                Rooms for
+                            </h1>
+                            <p>1 room, 2 guests</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-bar p-3 d-flex align-items-center justify-content-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                    <h1 class="m-2">search...</h1>
+                </div>
+            </div>
+        </div>
+        <div class="rooms-container ">
+            <h1>Our Most Popular Rooms</h1>
+            <div class="d-md-flex justify-content-center pr-5">
+                <div class="card1 m-3">
+                    <img src="https://s3-alpha-sig.figma.com/img/23b5/2f62/15cf3398578940ec91d21e78cd9fcb59?Expires=1697414400&Signature=jGRfgYQRlwE4CEL~h-vT6JyQ1krPx0rxlsxUz6BNKzTXijLtlRb6Al1ehhaeUBuzTBDLI7efFqUvLvACr73uZcgzat3JzNQKwvtHnolEJ1Eye5eI06U7dwlqNewvYGsBI90Xmdin07qvia2GJ8zuIHvkxhVDdvsJpvyTjxjNYXVgbcCRuLTNTf8FWMVvMX3AeyvBWT8dlDykATTtMEc1PLzxRFJL5uL1unknmMoJqAW7gBPT3aDITKsqdUgb0ImR6PQrNb9x1FQGyKO~w3T1B8RAVWoOdCKIBSFJXbE2KVaxbWIf-7ZLKffbAlfWDigVhjK-xtd70PMWpTspD7J16g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                    <div class="p-3">
+                        <h1>Basic Room </h1>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p>$200 Par Night</p>
+                            <div class="stars d-flex ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-star inactive" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                </svg>
+                                &nbsp;&nbsp;
+                                <p class="">4.8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1 m-3">
+                    <img src="https://s3-alpha-sig.figma.com/img/607d/299c/3ce7b4f8fde8359dcf4b9d966ccaf568?Expires=1697414400&Signature=iMqSAM-TpWqpZH14t6BwO7Lg4gBer5bjS1MuQ9huR7uCYVdmtEcFFlAppyfs0CliS7caJYQxhRMcpBNUDnaxwm9VYzIg~HXYCHaxfxxukd8xH~e~oXoWN9hJblJePhqPcgIbVR9daezzsd0oAiVHqf0wFQWW0wStqGPUxeI9X0w4p7Yni~01bsTL88AFeuH8bjhq9I6fvLdj304zVB59K-m-jC~m6MxtIZiR~0i7rq4K6-GNfyHDxb-Ztz4tBV4NJyeSbows0Mu5uOuBks~eEGmKRq3DJIEnHwMFnDWr4xX4aIWI~98X9yUJ8EDHeZzsyxwvxLl09i~X-LJ1W59Oww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                    <div class="p-3">
+                        <h1>Premium Room</h1>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p>$200 Par Night</p>
+                            <div class="stars d-flex ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-star inactive" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                </svg>
+                                &nbsp;&nbsp;
+                                <p class="">4.8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1 m-3">
+                    <img src="https://s3-alpha-sig.figma.com/img/ae15/5973/d6ddbfddc951e9d1687be42108262156?Expires=1697414400&Signature=b23xz04Q1QKsRTiFRlvDtcBOiOOAFv5hR~SmVAo8hUdsgk5XwG2AMWVDVs53LAdukzRLZC3FKiueCeiz6bgFSnn39m0yH0xAvkbNIzKQxv1ON29dXtrUG3xVznI-yayqRAE858SKwyf~~3cUr7kbfeWaC-NH408~h6Q0LxZiTLJ9X3QAa83glOk04hsRjesms5gMAHUBwv9k~1GKlcgwY1u4T7x2I60j0aAkhyxAJtwuqni1sVFl-u5mfj4X8A0lM~0g7o11tj183gybpGtqc0MNxcAp7RrLCkDR1RfHePLDZSlaHxc8Z-00kDbRmCbkaN3S2CBG-qCQgQEb8Uds7Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4">
+                    <div class="p-3">
+                        <h1>Basic Room </h1>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p>$200 Par Night</p>
+                            <div class="stars d-flex ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-star inactive" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                                </svg>
+                                &nbsp;&nbsp;
+                                <p class="">4.8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="facilities-container">
+            <div class="d-lg-flex ">
+                <div class="facilities-container-details">
+                    <h1>We do our best facilities provide you</h1>
+                    <p>Discover Your Ideal Haven: Find Your Perfect Stay at Golden Sands Resort </p>
+                    <button>contact now</button>
+                </div>
+                <div class="facilities-card d-flex justify-content-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480720/workspace_1_kcrs71.png" />
+                        <p>Private Workspace</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480720/workspace_1_kcrs71.png" />
+                        <p>Parking Area</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480720/workspace_1_kcrs71.png" />
+                        <p>Break Fast</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480720/workspace_1_kcrs71.png" />
+                        <p>Free wifi</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480716/flash_1_1_eqgx2q.png" />
+                        <p>Free Electricity</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480716/swimmer_1_uc5vwm.png" />
+                        <p>Swimming Pool</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480716/dumbell_1_u5wzlg.png" />
+                        <p>exercise Space</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696480716/ellipsis_1_qczd79.png" />
+                        <p>Other service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mt-4 d-xs-flex flex-xs-column">
+            <div class="d-sm-flex flex-sm-column d-md-flex flex-md-row">
+                <img class="history-image" src="https://s3-alpha-sig.figma.com/img/8563/ecfc/0bec1155849fed9bf2dc78b7d0a77f0c?Expires=1697414400&Signature=eNdMMghSkqkySVeu37osauVy4RWPMyKOy~AT2ylOFoQyb3W4pPZgOuJBEfM1KWoA4AJncRoZVg3Ul7lktWOH4Un4lO3crX1bLky5JKGH7eeyGopwrsYTNdixjIasa4kYOvLFcWHOhvaSNFaKlmpzoTRzAitcXcdTyU0HFZkjeKre575BvdgAlFk9e-qiYsBevRw19AzDJppNsHT3tZ2U3WBAdlGpBha7wKvd-9XPwWxCuCKQIQORRiBGrUZ-PW2PL3lM5rB40YoYzZr0Wo8fUWX~xMkKj9Q-zeJCw5ICw0JuIvLqV6B8EDU2kXsqUbIdmrl53NGbWaaUgalspPbj7g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="image">
+                <div class="card3-body">
+                    <h1>Discover our History</h1>
+                    <p>Golden Sands Resort has a rich history dating back over a century. Originally a grand mansion, it transformed into a distinguished hotel.</p>
+                    <p>Welcoming esteemed guests and witnessing significant moments, it has evolved while preserving its historic charm. Today, it stands as an icon of luxury, offering a perfect blend of heritage and contemporary hospitality.</p>
+                    <button class="login">Explore More</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-less-cont d-md-flex align-items-center justify-content-center">
+            <div class="question-card">
+                <h1>Frequently Asked</h1>
+                <span>Questions</span>
+                <p>You can book massages 7 days a week from 6 am to 11 pm, including public holidays.</p>
+            </div>
+            <div class="question-card-container">
+                <div class="question-card1 p-3 m-2 ">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h5 class="">How far is nearset bus station ?</h5>
+                        <div class="text-right">
+                            <span class="material-symbols-outlined">
+                                keyboard_arrow_up
+                            </span>
+                        </div>
+                    </div>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                </div>
+                <div class="question-card1 p-3 m-2 d-flex align-items-center justify-content-between">
+                    <h5 class="">What Makes Us Different</h5>
+                    <div class="text-right">
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                </div>
+                <div class="question-card1 p-3 m-2 d-flex align-items-center justify-content-between">
+                    <h5 class="">What Time Is Checking Out?</h5>
+                    <div class="text-right">
+                        <span class="material-symbols-outlined">
+                            expand_more
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map p-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164931.81323274193!2d-90.4793827828588!3d38.64943032597146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.%20Louis%2C%20MO%2C%20USA!5e0!3m2!1sen!2sin!4v1696488877544!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="card d-lg-flex flex-lg-row align-items-lg-center p-3">
+                <div>
+                    <h1>Visit Us</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                </div>
+                <div class="input-container d-flex">
+                    <input placeholder="Enter your email">
+                    <button class="login">subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-container ">
+        <div class="shape"></div>
+        <div class="footer d-md-flex flex-row p-3 justify-content-center text-center pt-5">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="p-2">
+                    <h2>Looking forward to a wonderful stay</h2>
+                    <div class="d-flex">
+                        <img class="m-2" src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696490299/Group_23_uytfae.png" alt="facebook">
+                        <img class="m-2" src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696490299/search_1_aciblv.png" alt="google">
+                        <img class="m-2" src="https://res.cloudinary.com/dggmncuj6/image/upload/v1696490299/Group_24_keappd.png" alt="insta">
+                    </div>
+                </div>
+                <div class="p-2">
+                    <h2>Home</h2>
+                    <p>Booking</p>
+                    <p>Facilities</p>
+                    <p>Location</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+            <div class="p-2 d-flex align-items-center justify-content-md-center justify-content-sm-between">
+                <div class="p-2">
+                    <h2>Help</h2>
+                    <p>About Us</p>
+                    <p>Help center</p>
+                    <p>Privacy policy</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="p-2">
+                    <h2>Get the app</h2>
+                    <p>iOS app</p>
+                    <p>Android app</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

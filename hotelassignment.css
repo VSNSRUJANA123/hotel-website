@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-contanier {
+    background-color: #222222;
+
+    padding: 20px;
+}
+
+.login-btn-container {
+    text-align: right;
+    padding: 10px;
+}
+
+.login {
+    color: white;
+    border-radius: 35px;
+    background: #ff7665;
+    width: 133px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.home-card-container {
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    background-color: #f6fcf9;
+}
+
+.home-card {
+    border-radius: 20px 20px 20px 20px;
+
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.home-card-details {
+    padding: 20px;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.home-card .home-card-details h1 {
+    padding: 10px;
+    padding-top: 40px;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.home-card .home-card-details p {
+    padding: 10px;
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 160% */
+}
+
+.home-card .home-card-details div {
+    display: flex;
+    align-items: center;
+}
+
+.home-card .home-card-details div button {
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+button {
+    outline: none;
+}
+
+.home-card .home-card-details div p {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+.arrow-btn {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.home-card-image {
+    width: 50%;
+}
+
+.home-card-image img {
+    padding: 0;
+    height: 490px;
+    overflow: hidden;
+    /* border-radius: 20px 20px 20px 20px; */
+}
+
+.home-filter-container {
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    margin: 12px;
+    width: 97%;
+    border-radius: 280px;
+    background: #fff;
+    box-shadow: 2px 22px 38px 0px rgba(0, 34, 19, 0.08);
+
+}
+
+.home-filters {
+    padding: 13px;
+}
+
+.home-filters div h1 {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 120% */
+}
+
+.home-filters div p {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+.search-bar {
+    color: white;
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    background: rgba(255, 84, 62, 0.80);
+}
+
+.search-bar h1 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+
+.rooms-container h1 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 150% */
+}
+
+.rooms-container .card h1 {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: 30px;
+    /* 125% */
+}
+
+.rooms-container .card1 {
+    width: 30%;
+    flex-shrink: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #FAFAFA;
+}
+
+.rooms-container .card1 h1 {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.rooms-container .card1 img {
+    width: 100%;
+}
+
+.rooms-container .card p {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.stars {
+    color: #FBBB00;
+}
+
+.inactive {
+    color: #E5E5E5 !important;
+}
+
+.facilities-container-details h1 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    /* 125% */
+}
+
+.facilities-container-details p {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.facilities-container-details button {
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    background: rgba(255, 118, 101, 0.80);
+}
+
+.facilities-card {
+    flex-wrap: wrap;
+}
+
+.facilities-card div {
+    width: 20%;
+    padding: 5px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.facilities-card p {
+    color: #222;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.card-3 {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card-3 div {
+    display: flex;
+}
+
+.card-3 div img {
+    width: 50%;
+}
+
+.card3-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.card3-body h1 {
+    font-size: 30px;
+    font-family: "Roboto";
+}
+
+.card3-body p {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.card-less-cont {
+    padding: 0px;
+}
+
+.card-less-cont .question-card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.card-less-cont .question-card h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.card-less-cont .question-card span {
+    color: #FF7665;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.card-less-cont .question-card p {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.question-card1 {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    height: auto;
+}
+
+.question-card1 div h5 {
+    color: #0C1623;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%;
+    /* 30.6px */
+    text-transform: capitalize;
+}
+
+.question-card1 div p {
+    color: rgba(29, 38, 58, 0.90);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+.history-image {
+    width: 50%;
+}
+
+.input-container input {
+    border-radius: 50px;
+    background: #FAFAFA;
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.footer-container {
+    position: relative;
+}
+
+.shape {
+    top: -20%;
+    left: 50%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #FF7665;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.footer {
+    align-items: center;
+
+    background-color: #FF7665;
+    width: 100%;
+}
+
+.footer h2 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.footer p {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+@media (max-width: 577px) {
+
+    .home-card {
+        height: 160vh;
+    }
+
+    .home-card-details {
+        width: 100%;
+    }
+
+    .home-card .home-card-details h1 {
+        font-size: 20px;
+    }
+
+    .home-card-image {
+        width: 100%;
+    }
+
+    .home-card-image img {
+        width: 100%;
+        padding: 0;
+        height: 414px;
+        height: 300px;
+        border-radius: 0px;
+    }
+
+    .home-filter-container {
+        border-radius: 10px;
+        margin: 7px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .search-bar {
+        width: 100%;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 0;
+        background: rgba(255, 84, 62, 0.80);
+    }
+
+    .history-image {
+        width: 100%;
+    }
+
+    .rooms-container .card1 {
+        width: 100%;
+        flex-shrink: 0;
+        border-radius: 15px;
+        overflow: hidden;
+        background: #FAFAFA;
+    }
+
+    .rooms-container div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .facilities-card div {
+        width: 100px;
+    }
+
+    .card-3 div img {
+        width: 100%;
+    }
+
+    .question-card {
+        width: 100% !important;
+    }
+
+    .shape {
+        top: -10%;
+        left: 40%;
+    }
+}
+
+@media (min-width:577px) and (max-width:769px) {
+    .home-card {
+        height: 145vh;
+    }
+
+    .home-card-details {
+        width: 100%;
+    }
+
+    .home-filter-container {
+        border-radius: 10px;
+        margin: 7px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .rooms-container .card1 {
+        width: 200px;
+        flex-shrink: 0;
+        border-radius: 15px;
+        overflow: hidden;
+        background: #FAFAFA;
+    }
+
+    .search-bar {
+        width: 100%;
+        height: 100px;
+        flex-shrink: 0;
+        border-radius: 0;
+        background: rgba(255, 84, 62, 0.80);
+    }
+
+
+}
